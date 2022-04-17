@@ -16,3 +16,26 @@ print('e.g. print("Hello " + "world")')
 
 #4. Extra ( in print function removed.
 print("New lines can be created with a backslash and n.")
+
+----------------------------------------------------------
+# input() will get user input in console
+# Then print() will print the word "Hello" and the user input
+
+print("Hello " + input("What is your name?"))
+
+#INPUT EXERCISE
+
+#This code prints the number of characters in a user's name.
+print( len( input("What is your name? ") ) )
+
+
+#Notes
+#If input was "Jack"
+#1st: print(len("Jack"))
+#2nd: print(4)
+
+
+#If you are talking about the length of the string, you can use len():
+#s = 'please answer my question' 
+#len(s)  #number of characters in s
+#25
