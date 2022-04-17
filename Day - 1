@@ -62,3 +62,19 @@ b = c
 
 print("a: " + a)
 print("b: " + b)
+----------------------------------------------------------
+#Veriable Naming
+
+#suitable variable names:
+number1=72
+percentage=35
+_two_book=10
+plusSalary=400
+MYDOG = "Jack"
+MyDoG= "Jack"
+
+#not suitable variable names:
+1.number=72
+%percentage=35
+2_book=10
++salary=400
