@@ -15,7 +15,9 @@ print(type(a))
 # print(70 + float("100.5"))
 print(str(70) + str(100))
 
-#type() function to find out the type of a data used.
+type() function to find out the type of a data used.
+Round is a function. Returns a floating number to be rounded to the given decimal place. If no decimal place to round is specified, it is assumed to be 0 and rounded to the nearest integer.
+The len() function returns the number of items in an object. When the object is a string, the len() function returns the number of characters in the string.
 ----------------------------------------------------------
 [Interactive Coding Exercise] Data Types
 two_digit_number = input("Type a two digit number: ")
