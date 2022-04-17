@@ -1,2 +1,2 @@
-# TR : 100 günde tamamlayacağım Python Bootcamp maceramda notlarımı, projelerimi vs. sizlerle paylaşacağım.
-# EN : In my Python Bootcamp adventure, which I will complete in 100 days, I will share my notes, projects, etc. i will share it with you.
+# TR : 100 günde kendime meydan okuyarak python tamamlama serime notlarımı, projelerimi vs. sizlerle paylaşacağım.
+# EN : By challenging myself in 100 days, I've added my notes, projects etc to my python completion series. i will share it with you.
