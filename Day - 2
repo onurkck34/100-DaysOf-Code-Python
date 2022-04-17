@@ -29,3 +29,11 @@ second_digit = int(two_digit_number[1])
 two_digit_number = first_digit + second_digit
 
 print(two_digit_number)
+----------------------------------------------------------
+PEMDAS 
+parentheses     = () 
+exponents       = **
+multiplication  = *
+division        = /
+addition        = +
+subtraction     = -
