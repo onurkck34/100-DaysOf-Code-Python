@@ -30,12 +30,20 @@ two_digit_number = first_digit + second_digit
 
 print(two_digit_number)
 ----------------------------------------------------------
-PEMDAS 
-parentheses    = () 
-exponents      = **
-multiplication = *
-division       = /
+PEMDAS                            PEMDAS ORDER
+parentheses    = ()                 ()
+exponents      = **                 **
+multiplication = *                  */
+division       = /                  -+
 addition       = +
 subtraction    = -
 
 print(3*3+3/3-3) = 7
+----------------------------------------------------------
+Mathematical Operations in Python
+5 + 3 = 8
+5 - 3 = 2
+5 * 3 = 15
+5 / 3 = 1.66666666667
+5 % 3 = 2
+5 ** 3 = 125
