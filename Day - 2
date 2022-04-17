@@ -47,3 +47,17 @@ Mathematical Operations in Python
 5 / 3 = 1.66666666667
 5 % 3 = 2
 5 ** 3 = 125
+----------------------------------------------------------
+Number Manipulation
++=                           
+-=
+/=
+*=
+----------------------------------------------------------
+F String
+
+score = 0
+height = 1.8
+isWinning = True
+
+print(f"Your socore is {score}, Your height is {height}, You are winning is {isWinning}")
