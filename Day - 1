@@ -39,3 +39,15 @@ print( len( input("What is your name? ") ) )
 #s = 'please answer my question' 
 #len(s)  #number of characters in s
 #25
+----------------------------------------------------------
+#Python Veriables
+name = "Jack"
+print(name)
+
+name = "Angela"
+print(name)
+
+
+name = input("What is your name?")
+length = len(name)
+print(length)
