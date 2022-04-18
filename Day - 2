@@ -1,4 +1,4 @@
-
+#Data Types
 
 x = "Hello World" = string
 x = 14            = integer
