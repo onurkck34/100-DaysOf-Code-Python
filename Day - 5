@@ -1,0 +1,11 @@
+Python for loop
+---------------
+Loops allow you to control the logic and flow structures of your programs. Specifically,
+a for loop allows you to repeatedly execute a block of similar code operations until a condition is met.
+
+#For Loop with Lists
+fruits = ["Apple", "Peach", "Pear"]
+for fruit in fruits:
+  print(fruit)
+  print(fruit + " Pie")
+print(fruits)
