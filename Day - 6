@@ -1,0 +1,11 @@
+My def function(): print("Hello from a function!") As seen in the example,
+the name of the function is given after the def statement (my function).
+The parenthesis is opened, the parameters are written,
+if any, and the parenthesis is closed. 
+Then, when the function is called by putting a colon,
+the codes that are requested to run are started to be written.
+
+def my_function():
+  print("Hello from a function")
+
+my_function()
