@@ -9,7 +9,7 @@ def my_function():
   print("Hello from a function")
 
 my_function()
-
+----------------------------------------------------------
 Python Indentation Rules
 The first line of python code cannot have an indentation.
 Indentation is mandatory in python to define the blocks of statements.
