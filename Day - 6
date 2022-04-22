@@ -9,3 +9,14 @@ def my_function():
   print("Hello from a function")
 
 my_function()
+
+Python Indentation Rules
+The first line of python code cannot have an indentation.
+Indentation is mandatory in python to define the blocks of statements.
+The number of spaces must be uniform in a block of code.
+It is preferred to use whitespaces instead of tabs to indent in python.
+
+Examples : 
+def my_name():
+  print("Hello I am Onur")
+  print("Hi! My name is Onur")
