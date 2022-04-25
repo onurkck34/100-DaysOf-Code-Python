@@ -25,6 +25,3 @@ def format_name(f_name, l_name):
   formated_l_name = l_name.title()
   return f"Result: {formated_f_name} {formated_l_name}"
 ----------------------------------------------------------
-Docstrings
-
-In programming, a docstring is a string literal specified in source code that is used, like a comment, to document a specific segment of code.
