@@ -14,7 +14,7 @@ tim = t.Turtle()
 
 import heroes
 print(heroes.gen())
-
+----------------------------------------------------------
 # CHALLANGE - 1 | DRAW A SQUARE 
 
 from turtle import Turtle, Screen
