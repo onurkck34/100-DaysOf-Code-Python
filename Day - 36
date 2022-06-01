@@ -54,13 +54,3 @@ if abs(diff_percent) > 1:
     three_articles = articles[:3]
     print(three_articles)
 
-    formatted_articles = [f"{STOCK_NAME}: {up_down}{diff_percent}%\nHeadline: {article['title']}. \nBrief: {article['description']}" for article in three_articles]
-    print(formatted_articles)
-    client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
-
-    for article in formatted_articles:
-        message = client.messages.create(
-            body=article,
-            from_=VIRTUAL_TWILIO_NUMBER,
-            to=VERIFIED_NUMBER
-        )
