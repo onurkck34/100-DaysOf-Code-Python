@@ -1,0 +1,77 @@
+open git bash for windows
+
+git --version (type git in version to check)
+
+$ git config --global user.name "Onur Kocak" (with this command we must enter our name in git, we write it in git bash on windows
+
+$ git config --global user.email "onur1224@gmail.com" (with this command, we introduce our email to git system, we do git bash on windos)
+
+$ git config --global user.name (to be sure of the name we entered, we type this command and it gives us the user.name we entered)
+
+$ git config --global user.email (to be sure of the email we entered, we type this command and it gives us the user.email we entered)
+
+$ pwd (command gives us the full address of the directory we are on terminal)
+
+$ ls (command comes from list, that means list, it lists the files and directories on the directory we are in)
+
+$ cd (we use cd command to change directory)
+
+$ cd .. (if we type this command, it will go to the previous directory)
+
+$ clear (command clears terminal, shortcut is ctrl+l)
+
+$ git init (if we type the command, it will show us that the project is a git project)
+
+$ ls -a (this command will show us the files hidden in our git project)
+
+$ git add . (Adding means . Now it means the directory. When we run this command, we will add all the files in this directory to the git repo, we can write the names of the files we want and add them)
+
+$ git commit -m "first commit" (but the command at the top will not be enough on its own. When the command above runs, it will go to the transit zone. If we write this command after the code above, we need to commit to get it from the transit zone to the git repo and we do it with this command, we add a message in double quotes. After typing the command, git creates a copy of our project)
+
+$ git log (to list these versions we have received, we run git log and it lists all the versions we have received)
+
+$ git status (git status command shows us these changes when there are any changes in our project, it gives us whether there is a commit to be added)
+
+$ git diff (diff command lists us the changes in the files line by line)
+
+$ git diff --staged (this command stores us the differences between staged area and git repo)
+
+$ git rm carpma.py (this will send the deleted file to the transition zone. We could also use add instead of rm, it doesn't matter. It comes from rm = remove. I mean, BUT THIS OPERATION WOULD BE IF WE DELETED THE FILE FROM THAT DIRECTORY)
+
+$ git rm bolme.py (if we want to delete it from bash terminal, we can delete and commit the file that we will delete directly by typing git rm filename)
+
+$ git rm -r will be deleted/ (to delete a folder, type the folder name git rm -r this command will delete the folder and the files in it)
+
+$ git mv test1.txt test2.txt (mv command is used to change the name, we write our file name after mv, then we write the name we will make in the next place)
+
+$ git mv trial2.txt files/ (Another function of the mv command is to change directory, it means move the trial2.txt file to a folder named files, here is the command)
+
+$ git checkout -- index.txt (checkout will help us to undo the changes we have made, bring it back if we deleted a file, or bring it back if we accidentally deleted an article in the file)
+
+$ git reset HEAD index.txt (undoes a deletion from the transit zone)
+
+$ git checkout aadaass2f0277b1f28324234242472503af04224229553da14 -- . (If we want to change the version, we write checkout and type the ID of that version and the ID comes out when we write git log, leave a space after typing the ID and leave a space again. We put a dot. It is very important to put everything in this directory to version2. If we do not put it, it may cause some errors)
+
+$ git remote add githubRepo https://github.com/onurkck34/git-dersleri.git (we write this command to add the link of the repo we created on github to git, we could have written something else instead of githubRepo, alias git remote add is that we want to add a remote link here We specify, in order to be sure that this command works, we type git remote and learn whether the link can be added)
+
+$ git push -u githubRepo master (we write this command to send our project to github, push means sending, -u parameter means sending all files, githubRepo is the github repository we just linked to, master is the main branch of the git project) after this command, give us username and password. it asks for password, then uploading files to github successfully
+
+$ cat >> .gitignore (when we write this command, we will create a file named .gitignore, after typing this command, we will wait for a text to write something inside the file)
+
+$ touch file{1.5}.html (this command will open 5 html files to the directory we are in, so we don't need to do it manually)
+
+$ gedit .gitignore (means open .gitignore file)
+
+$ git pull (git pull brings files from github to the folder I created on the computer)
+
+$ git branch (we use git branch command to list existing branches in our project)
+
+$ git branch --all (with this command we see branches in our remote git repository)
+
+$ git branch yandal2 (when we type it creates a branch called yandal2)
+
+$ git checkout minor2 (we switch from another branch to another branch with the checkout command, after checkout we write the branch we want to switch)
+
+$ git diff master minor2 (which lists us the differences between these 2 branches)
+
+$ git merge minor2 (to merge two branches, we use the merge command, let's think that the branch we are on is master, we do not need to specify master because we are in it)
