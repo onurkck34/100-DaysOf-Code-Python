@@ -46,7 +46,3 @@ class InternetSpeedTwitterBot:
         time.sleep(2)
         self.driver.quit()
 
-
-bot = InternetSpeedTwitterBot(CHROME_DRIVER_PATH)
-bot.get_internet_speed()
-bot.tweet_at_provider()
