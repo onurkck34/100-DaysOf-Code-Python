@@ -21,14 +21,4 @@ short_names = [name for name in names if len(name) < 5]
 
 upper_case_names = [name.upper() for name in names if len(name) > 4]
 
-#Dictionary Comprehension
-import random
-student_grades = {name: random.randint(1, 100) for name in names}
-print(student_grades)
 
-
-passed_students = {
-    student: grade
-    for (student, grade) in student_grades.items() if grade >= 60
-}
-print(passed_students)
