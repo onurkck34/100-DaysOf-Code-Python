@@ -33,6 +33,11 @@ graph_config = {
 
 pixel_creation_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}"
 
+headers = {
+    "X-USER-TOKEN": TOKEN
+}
+
+# response = requests.post(url=graph_endpoint, json=graph_config, headers=headers)
 today = datetime.now()
 # print(today.strftime("%Y%m%d"))
 
