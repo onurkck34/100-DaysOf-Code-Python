@@ -23,17 +23,3 @@ def hello_world():
            '<p>This is a paragraph.</p>' \
            '<img src="https://media.giphy.com/media/hvS1eKlR75hMr0l7VJ/giphy.gif" width=200>'
 
-@app.route("/bye")
-@make_bold
-@make_emphasis
-@make_underlined
-def bye():
-    return "Bye!"
-
-@app.route("/username/<name>/<int:number>")
-def greet(name, number):
-    return f"Hello there {name}, you are {number} years old!"
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
