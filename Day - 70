@@ -68,10 +68,3 @@ $ git branch (we use git branch command to list existing branches in our project
 
 $ git branch --all (with this command we see branches in our remote git repository)
 
-$ git branch yandal2 (when we type it creates a branch called yandal2)
-
-$ git checkout minor2 (we switch from another branch to another branch with the checkout command, after checkout we write the branch we want to switch)
-
-$ git diff master minor2 (which lists us the differences between these 2 branches)
-
-$ git merge minor2 (to merge two branches, we use the merge command, let's think that the branch we are on is master, we do not need to specify master because we are in it)
