@@ -64,3 +64,16 @@ while is_race_on:
         turtle.forward(rand_distance)
 
 screen.exitonclick()
+def move_backwards():
+    tim.backward(10)
+def turn_left():
+    new_heading = tim.heading() + 10
+    tim.setheading(new_heading)
+def turn_right():
+    new_heading = tim.heading() - 10
+    tim.setheading(new_heading)
+def clear():
+    tim.clear()
+    tim.penup()
+    tim.home()
+    tim.pendown()
