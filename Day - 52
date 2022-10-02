@@ -51,6 +51,9 @@ def follow(self):
                 cancel_button = self.driver.find_element_by_xpath('/html/body/div[5]/div/div/div/div[3]/button[2]')
                 cancel_button.click()
 
-
+bot = InstaFollower(CHROME_DRIVER_PATH)
+bot.login()
+bot.find_followers()
+bot.follow()
 
     
