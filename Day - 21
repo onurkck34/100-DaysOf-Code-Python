@@ -17,4 +17,6 @@ class Fish(Animal):
         print("moving in water.")
 
 
+nemo = Fish()
+nemo.breathe()
 
