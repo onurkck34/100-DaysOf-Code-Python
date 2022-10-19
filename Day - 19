@@ -72,4 +72,8 @@ def turn_left():
 def turn_right():
     new_heading = tim.heading() - 10
     tim.setheading(new_heading)
-
+def clear():
+    tim.clear()
+    tim.penup()
+    tim.home()
+    tim.pendown()
