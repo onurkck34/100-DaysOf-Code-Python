@@ -10,3 +10,6 @@ with open("my_file.txt", mode="w") as file:
     
 # Opening a File that doesn't exit in write mode will create it from scratch
 
+
+with open("file_that_doesnt_exist.txt", mode="w") as file:
+    file.write("New text.")
